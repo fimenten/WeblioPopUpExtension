@@ -146,6 +146,7 @@ function WeblioExtensions() {
         }
                     sendGAS(shwWd)
 
+        
     };
     this.KeyDownHandler = function (e) {
         var x = "";
