@@ -126,7 +126,6 @@ function WeblioExtensions() {
             if (!wind) wind = e.currentTarget;
             if ((wind.getSelection() + "").length > 0) return;
             var url = "//api.weblio.jp/act/quote/v_1_0/e/?q=";
-            sendGAS(shwWd)
 
             if (encodeURIComponent) {
                 url += encodeURIComponent(shwWd)
@@ -145,6 +144,8 @@ function WeblioExtensions() {
         } else if (x == "17" && act == "sel_ekey" || x == "69" && act == "e_key") {
             delBx(e)
         }
+                    sendGAS(shwWd)
+
     };
     this.KeyDownHandler = function (e) {
         var x = "";
