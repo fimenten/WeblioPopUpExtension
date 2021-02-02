@@ -139,9 +139,9 @@ function WeblioExtensions() {
             shwWd = "";
             preMv.x = mv.x;
             preMv.y = mv.y
-        } else if (x == "238" && act == "e_key" && !isShow) {
+        } else if (x == "17" && act == "e_key" && !isShow) {
             fetchBox(e)
-        } else if (x == "17" && act == "sel_ekey" || x == "238" && act == "e_key") {
+        } else if (x == "17" && act == "sel_ekey" || x == "17" && act == "e_key") {
             delBx(e)
         }
                     sendGAS(shwWd)
